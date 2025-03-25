@@ -1,0 +1,298 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SkinSafe App</title>
+<link href="css/framework7.bundle.min.css" rel="stylesheet">
+<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+	
+	<div id="app">
+			
+		<section class="panel panel-left panel-cover">
+		
+			<div id="perfil" class="block">
+				<img src="img/Examen/cliente.jpeg" alt="">
+				<h4>Indiana Peña</h4>
+				<p>Usual Client Profile</p>
+			</div>
+			
+			<div class="list media-list">
+				<ul>
+					<li>
+					  <a href="/home/" class="item-link item-content panel-close">
+						<div class="item-media">
+						  	<span class="material-icons">home</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Home</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/products/" class="item-link item-content panel-close">
+						<div class="item-media">
+						  	<span class="material-icons">sell</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Products</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content">
+						<div class="item-media">
+						  	<span class="material-icons">question_answer</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Messages</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content">
+						<div class="item-media">
+						  	<span class="material-icons">notifications</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Notifications</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="#" class="item-link item-content">
+						<div class="item-media">
+						  	<span class="material-icons">bookmark</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Bookmarks</div>
+						</div>
+					  </a>
+					</li>
+					<li>
+					  <a href="/perfil/" class="item-link item-content">
+						<div class="item-media">
+						  	<span class="material-icons">account_circle</span>
+						  </div>
+						<div class="item-inner">
+						  <div class="item-title">Profile</div>
+						</div>
+					  </a>
+					</li>
+				</ul>
+			</div>
+			
+		
+		</section>
+		
+		
+	<div class="view view-main view-init">
+
+	 
+		
+		
+
+<section class="page-content" data-name="info">
+
+	<nav class="navbar">
+		<div class="navbar-bg"></div>
+		<div class="navbar-inner">
+			<div class="left">
+				<a href="#" class="link back">
+					<i class="material-icons">chevron_left</i>
+				</a>
+			</div>
+			<div class="title">Products</div>
+			<div class="right">
+				<a class="link icon-only searchbar-enable" data-searchbar=".search">
+				  <i class="material-icons">search</i>
+				</a>
+				<a href="#" class="link panel-open" data-panel="left">
+					<i class="material-icons">menu</i>
+				</a>
+			</div>
+		</div>
+		
+		<form class="searchbar searchbar-expandable search searchbar-init" data-search-	container=".list-search" data-search-in=".card-content">
+			<div class="searchbar-inner">
+			   <div class="searchbar-input-wrap">
+				 <input type="search" placeholder="Search..."/>
+				 <i class="searchbar-icon"></i>
+				 <span class="input-clear-button"></span>
+			   </div>
+		   	<span class="searchbar-disable-button if-not-aurora">Cancel</span>
+			</div>
+	  	</form>
+	</nav>
+	
+	
+	<section class="page" data-name="productxsmax">
+	
+
+    <section class="page-content" id="page-product">
+	<div class="block block-product">
+        <div>
+			<img src="img/Examen/Delicious Spicy.jpg" alt="img" class="img-fluid" width="200px">
+        </div>
+       
+
+		    </div>
+		
+        <!-- Swiper Container -->
+	<div data-pagination='{"el": ".swiper-pagination"}' data-space-between="10" data-slides-per-view="3" class="swiper-container swiper-init demo-swiper">
+    <div class="swiper-wrapper">
+
+        <div class="swiper-slide"><img src="img/Examen/Real Spicy.jpg" alt="Real Spicy" class="img-fluid" width="80px"></div>
+
+        <div class="swiper-slide"><img src="img/Examen/Sweet & Sour.jpg" alt="Sweet & Sour" class="img-fluid" width="80px">
+        </div>
+
+        <div class="swiper-slide">
+            <img src="img/Examen/Full - Trio.webp" alt="Full Trio" class="img-fluid" width="80px">
+        </div>
+		<div class="swiper-slide">
+            <img src="img/Examen/Real Spicy.jpg" alt="Real Spicy" class="img-fluid" width="80px">
+        </div>
+
+        <div class="swiper-slide">
+            <img src="img/Examen/Sweet & Sour.jpg" alt="Sweet & Sour" class="img-fluid" width="80px">
+        </div>
+
+        <div class="swiper-slide">
+            <img src="img/Examen/Full - Trio.webp" alt="Full Trio" class="img-fluid" width="80px">
+        </div>
+		<div class="swiper-slide">
+            <img src="img/Examen/Sweet & Sour.jpg" alt="Sweet & Sour" class="img-fluid" width="80px">
+        </div>
+
+        <div class="swiper-slide">
+            <img src="img/Examen/Full - Trio.webp" alt="Full Trio" class="img-fluid" width="80px">
+        </div>
+
+    </div>
+
+    <!-- Swiper Pagination -->
+    <div class="swiper-pagination"></div>
+</div>
+
+
+<div>
+            <div class="row">
+                <article class="col-70">
+                    <h4 class="prod_name">Unleashia | Paste Lip Balm </h4>
+                    <h5 class="prod_id">NO.3 DELICIOUS SPICY SHADE</h5>
+                </article>
+                <article class="col-30">
+                    <h4 class="prod_price">$9.70</h4>
+                </article>
+            </div>
+
+        <h5 class="center">Quantity</h5>
+
+        <div class="card card-cant">
+            <div class="card-content card-content-padding">
+                <div class="row center">
+                    <article class="col-20 center">-</article>
+                    <article class="col-60 center">1</article>
+                    <article class="col-20 center">+</article>
+                </div>
+                
+
+            </div>
+          </div>
+	</div>
+		<div class="block block-payments">
+			<a href="/cart/" class="btn-product">Add To Cart</a>
+		</div>
+		
+		<div class="block block-product">
+			<h4 class="down_product">Information</h4>
+			<p>Introducing No. 3 DELICIOUS SPICY RECIPE , a lip balm with a vibrant pinky-red tint. It comes with a small gift of Gochujang chili paste.<br><b>Learn about some of its benefits and features:</b><br></p>
+<ul>
+<li>Vegan lip balm has a hint of reddish color</li>
+<li>It is enriched with rice and capsicum annuum fruit extract to keep lips shiny, hydrated and plump.</li>
+<li>Perfect for giving volume to the lips</li>
+<li>Created in collaboration with the iconic Gochujang from traditional South Korean brand Haechandle.</li>
+<li>Leaves lips looking shiny and full with a natural reddish tint.</li>
+	</ul>
+		</div>
+		
+		<div class="block block-product">
+			<h4 class="down_product">Reviews</h4>
+			<div class="card card-reviews">
+				<p class="user_review">User 1270289</p>
+				<span class="material-icons star-gold">star_rate</span><span class="material-icons star-gold">star_rate</span><span class="material-icons star-gold">star_rate</span><span class="material-icons star-gold">star_rate</span><span class="material-icons star-white">star_rate</span>
+				<p>"Obsessed! This lip balm gives a subtle spicy tint and keeps my lips super soft. It’s the perfect mix of fun and hydration!"</p>
+			</div>
+			<div class="card card-reviews">
+				<p class="user_review">User 1268953</p>
+				<span class="material-icons star-gold">star_rate</span><span class="material-icons star-gold">star_rate</span><span class="material-icons star-gold">star_rate</span><span class="material-icons star-gold">star_rate</span><span class="material-icons star-gold">star_rate</span>
+				<p>"Love the unique red pepper twist! It’s moisturizing with a bold, warm tint—definitely a conversation starter."</p>
+			</div>
+			<div class="card card-reviews">
+				<p class="user_review">User 1352268</p>
+				<span class="material-icons star-gold">star_rate</span><span class="material-icons star-gold">star_rate</span><span class="material-icons star-gold">star_rate</span><span class="material-icons star-gold">star_rate</span><span class="material-icons star-gold">star_rate</span>
+				<p>"Smooth, spicy, and so chic! It adds a playful kick to my makeup routine while keeping my lips nourished all day."</p>
+			</div>
+		</div>
+			
+		<nav class="toolbar tabbar tabbar-labels toolbar-bottom">
+			<div class="toolbar-inner">
+				<a href="/home/" class="link">
+					<i class="material-icons">home</i>
+					<span class="tabbar-label">Home</span>
+				</a>
+				<a href="/products/" class="link">
+					<i class="material-icons">favorite</i>
+					<span class="tabbar-label">Favorite</span>
+				</a>
+				<a href="#" class="link">
+					<i class="material-icons">shopping_basket</i>
+					<span class="tabbar-label">Cart</span>
+				</a>
+				<a href="/perfil/" class="link">
+					<i class="material-icons">account_circle</i>
+					<span class="tabbar-label">Profile</span>
+				</a>
+			</div>
+		</nav>
+	</section>
+
+		
+		<!-- toolbar -->
+	
+				
+		
+		<!-- /toolbar -->
+		
+	</div><!--/view -->		
+		
+		
+	</div><!--/app -->
+	
+	
+	<script src="js/framework7.bundle.min.js"></script>
+	<script src="js/app.js"></script>
+	
+	<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        new Swiper('.swiper-container', {
+            slidesPerView: 3,
+            spaceBetween: 10,
+            pagination: {
+                el: '.swiper-pagination',
+                clickable: true,
+            },
+        });
+    });
+</script>
+	
+	
+	
+</body>
+</html>
