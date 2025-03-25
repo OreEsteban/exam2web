@@ -37,9 +37,9 @@ var app = new Framework7({
     	name: 'info',
   		},
 		{
-		path: '/perfil/',
+		path: '/perfilito/',
     	url: 'perfil.html',
-    	name: 'perfil',
+    	name: 'perfilito',
   		}
 		
 		

@@ -44,6 +44,17 @@ p{
 	border-radius: 100%;
 }
 
+#perfil{
+	background-color: var(--fondo-gris);
+	margin-top: 0;
+	margin-bottom: 0;
+	padding: 20px 30px;
+}
+#perfil img{
+	width: 60px;
+	height: 60px;
+	border-radius: 100%;
+}
 .panel-left .item-media span{
 	color: var(--f7-theme-color);
 }
